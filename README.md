@@ -28,4 +28,4 @@ Pre-trained models (e.g., sam_vit_h_4b8939.pth)
 ## Example Output
 Here is an example of the face swap results:
 
-![Face Swap Example](brat_swapped_hangs.png)
+![Face Swap Example](./brat_swapped_hangs.png)
