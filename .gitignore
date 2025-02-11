@@ -1,0 +1,69 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.face/
+
+# Ignore dependency files (if using pipenv or poetry)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Ignore system-generated files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore model weights and large files
+*.pth
+*.h5
+*.t7
+sam_vit_h_4b8939.pth
+
+# Ignore media files
+*.mp4
+*.jpeg
+*.jpg
+*.png
+*.gif
+
+# Ignore output files and test results
+test1_output_swapped.mp4
+brat_swapped_hangs.png
+test1.mp4
+
+# Ignore IDE/Editor configuration files
+.vscode/
+.idea/
+*.iml
+
+# Ignore compiled Cython or other binary files
+*.so
+*.dll
+*.exe
+*.o
+*.a
+*.out
+
+# Ignore dataset files (if applicable)
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xml
+
+face/
